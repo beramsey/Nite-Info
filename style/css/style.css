@@ -128,6 +128,20 @@ footer {
 }
     /* Large Screen Restaurant Menu Styles End */
 
+    /* Styles for Popularity Chart Begin */
+    canvas 
+
+   /* Styles for Popularity Chart End */
+
+    /* Styles for Skins Table Begin*/
+
+    th{ 
+      color:#fff;
+          }
+
+    /* Styles for Skins Table End*/
+    
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;

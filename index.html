@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo"><img src="Photos/Hometown Pizza Logo 2.png" alt=" Nite Info Logo"></div>
+            <div class="logo"><img src="style/images/Nite.png" alt=" Nite Info Logo"></div>
              <ul>
               <div class="navli">
               <li><a href="#about">About Fortnite</a></li>
@@ -40,20 +40,30 @@
     <section class="news" id="news">
         <h2>Latest News</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora commodi odio, molestias unde maxime reprehenderit tenetur? Tempore voluptas dolorem voluptatum, aspernatur eius quis, explicabo ea commodi nisi repellendus tempora at!
+          ll
         </p>
     </section>
     <section class="popularity" id="popularity">
         <h2>Popularity</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate ipsum magnam a eos? Natus, dolore accusamus exercitationem nobis error reprehenderit praesentium illo facere quidem ipsum, minima numquam impedit harum! 
+            <canvas id="popChart"></canvas>
         </p>
     </section>
     <section class="skins" id="skins">
-        <h2>Coolest Skins</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ipsum voluptates laborum amet laudantium aliquam, architecto blanditiis asperiores id corporis dignissimos repellat expedita maxime commodi repellendus odit quasi! Fugit, ducimus?
-        </p>
+        <h2>Fortnite Skins Database</h2>
+        <p>Here you will find a database of current Fortnite skins with info on cost and how to acquire each one.</p>
+          <table class="skins list">
+            <tr class="skin-info">
+                <th>Name</th>
+                <th>Price</th>
+                <th>Rarity</th>
+                <th>Source</th>
+            </tr>
+
+            <tbody id="skinsTable">
+
+            </tbody>
+          </table>
     </section>
     <section class="converter" id="converter">
         <h2>Vbuck Converter</h2>
@@ -66,6 +76,7 @@
     Nite Info &copy; 2023 &nbsp;
     <br> For Code Kentucky
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 <script src="style/js/script.js"></script>
 </body>
 </html>
