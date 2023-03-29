@@ -22,4 +22,26 @@ new Chart("popChart", {
   }
 });
 
-// Fortnite Skins API
+// Fortnite Character Generator
+const characterArray = [
+  "style/images/characters/fortnite-outfit-Leon-S-Kennedy.webp",
+  "style/images/characters/fortnite-outfit-Claire-Redfield.webp",
+  "style/images/characters/fortnite-outfit-aerial-asault-trooper.webp",
+  "style/images/characters/fortnite-outfit-astra.webp",
+  "style/images/characters/fortnite-outfit-Band-Pass.webp",
+  "style/images/characters/fortnite-outfit-brite-bomber.webp",
+  "style/images/characters/fortnite-outfit-fishstick.webp",
+  "style/images/characters/fortnite-outfit-peely.webp"
+];
+
+const image = document.querySelector("img");
+const button = document.querySelector("button");
+
+window.onload = () => generateRandomPicture(characterArray);
+
+button.addEventListener("click", () => generateRandomPicture(characterArray));
+
+function generateRandomPicture(array){
+	let randomNum = Math.floor(Math.random() * array.length); 
+	image.setAttribute("src", array[randomNum]);
+}
