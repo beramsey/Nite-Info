@@ -5,7 +5,7 @@ new Chart("popChart", {
   data: {
     labels: ['2017','2018','2019','2020','2021','2022','2023'],
     datasets: [{
-      backgroundColor:"black",
+      backgroundColor:"white",
       borderColor: "#f3af19",
       label: 'Popularity Over Time',
       data: [30,78.3,75.5,80.4,83.3,85,90],
@@ -23,6 +23,7 @@ new Chart("popChart", {
 });
 
 // Fortnite Character Generator
+
 const characterArray = [
   "style/images/characters/fortnite-outfit-Leon-S-Kennedy.webp",
   "style/images/characters/fortnite-outfit-Claire-Redfield.webp",
@@ -45,3 +46,18 @@ function generateRandomPicture(array){
 	let randomNum = Math.floor(Math.random() * array.length); 
 	image.setAttribute("src", array[randomNum]);
 }
+
+// Fortnite API
+const options = {
+	method: 'GET',
+	headers: {
+		Type: 'br',
+		'X-RapidAPI-Key': 'ffed1289ffmsh83cfed6f9f2a410p15dd43jsna9795d185233',
+		'X-RapidAPI-Host': 'fortnite4.p.rapidapi.com'
+	}
+};
+
+fetch('https://fortnite4.p.rapidapi.com/news', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
