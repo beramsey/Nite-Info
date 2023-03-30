@@ -1,138 +1,102 @@
 body {
-    background-color: #020202;
-    color: white;
-    font-family: Burbank Big Condensed; 
-    margin: 0;
-    padding: 0;
+  background-color: #ffffff;
+  color: black;
+  font-family: Burbank Big Condensed; 
+  margin: 0;
+  padding: 80px;
 
 }
 
 header {
-    padding: 0;
-    
+  padding: 0;
+  
 }
 
-    /* Nav Styles Begin */
+  /* Nav Styles Begin */
+  nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #9d4dbb;
+  font-family: Burbank Big Condensed;
+  }
+  .navli {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  font-size: 22px;
+  }
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; 
+      display: inline;
+  }
+  nav a {
+      display: block;
+      line-height: 1.8em;
+      text-decoration: none;
+      text-align: center;
+      text-decoration: none;
+      color: #f3af19;
+  }
+  nav a:hover {
+      background-color: #319236;
+      color: white;
+      font-size: 1.2em;
+      transition: 0.3s ease;
+  }
+  .logo {
+    max-height: 5em;
+    max-width: auto;
+  }
+
+  /* Nav Media Query */
+  @media (max-width: 640px) {
     nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+      text-align: center;
+    }
+  
+    .navli {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+
+    .logo {
+      background: transparent;
+    }
+  }
+
+  /* Nav Styles End */
+
+  h2 {
+    font-family: Burbank Big Condensed;
+    text-align: center;
+  }
+
+  section {
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  canvas {
+
+  }
+  #chart {
+    background-color: #9d4dbb;
+  }
+
+  footer {
     background-color: #9d4dbb;
     font-family: Burbank Big Condensed;
-    }
-    .navli {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-    font-size: 22px;
-    }
-    nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0; 
-        display: inline;
-    }
-    nav a {
-        display: block;
-        line-height: 1.8em;
-        text-decoration: none;
-        text-align: center;
-        text-decoration: none;
-        color: #f3af19;
-    }
-    nav a:hover {
-        background-color: #319236;
-        color: white;
-        font-size: 1.2em;
-        transition: 0.3s ease;
-    }
-    .logo {
-      max-height: 5em;
-      max-width: auto;
-    }
-
-    /* Nav Media Query */
-    @media (max-width: 640px) {
-      nav {
-        text-align: center;
-      }
-    
-      .navli {
-        flex-direction: column;
-      }
-    
-      nav ul {
-        flex-direction: column;
-      }
-    
-      nav li {
-        margin: 0.8em 0;
-      }
-
-      .logo {
-        background: transparent;
-      }
-    }
-
-    /* Nav Styles End */
-
-h2 {
-  font-family: Bree Serif;
-  text-align: center;
-}
-
-p {
-  font-family: Alegreya;
-  font-size: 18px;
-}
-
-a:link {
-  color: #f3af19;
-}
-
-a:link:hover {
-  color: white;
-}
-
-footer {
-    background-color: #9d4dbb;
-    font-family: Alegreya;
-    color: white;
+      color: #f3af19;
     text-align: center;
     padding: 10px 20px;
 }
-
-  /* Large Screen Media Query for Restaurant */
-@media screen and (min-width: 992px) {
-    
-    /* Large Screen Restaurant Menu Styles Begin */
-    .menu {
-        font-size: 16px;
-    }
-
-    .menu-group {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .menu-item-image {
-        width: 125px;
-        height: 125px;
-    }
-}
-    /* Large Screen Restaurant Menu Styles End */
-
-    /* Styles for Popularity Chart Begin */
-    
-
-   /* Styles for Popularity Chart End */
-
-    /* Styles for Character Generator Begin*/
-    #chragen.div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 70%;
-    }
-
-    /* Styles for Character Generator End*/
