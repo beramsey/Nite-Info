@@ -12,7 +12,7 @@ header {
   
 }
 
-  /* Nav Styles Begin */
+  /* Nav Styles Begin 
   nav {
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ header {
     max-width: auto;
   }
 
-  /* Nav Media Query */
+  /* Nav Media Query 
   @media (max-width: 640px) {
     nav {
       text-align: center;
@@ -75,7 +75,9 @@ header {
     }
   }
 
-  /* Nav Styles End */
+   Nav Styles End */
+
+  
 
   h2 {
     font-family: Burbank Big Condensed;
@@ -97,8 +99,16 @@ header {
   }
 
   /* Character Generator Styles */
-  #cgimg {
-    max-height: 300px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    height: 400px;
+    padding: 20px;
   }
 
   /* Footer Styles */
