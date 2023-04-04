@@ -13,7 +13,7 @@ header {
   
 }
 
-  /* Nav Styles Begin 
+  /* Nav Styles Begin  */
   nav {
   display: flex;
   align-items: center;
@@ -49,11 +49,11 @@ header {
       transition: 0.3s ease;
   }
   .logo {
-    max-height: 5em;
-    max-width: auto;
+    font-size: 50px;
+    color: #f3af19;
   }
 
-  /* Nav Media Query 
+  /* Nav Media Query */
   @media (max-width: 640px) {
     nav {
       text-align: center;
@@ -71,12 +71,9 @@ header {
       margin: 0.8em 0;
     }
 
-    .logo {
-      background: transparent;
-    }
   }
 
-   Nav Styles End */
+   /* Nav Styles End */
 
   
 
@@ -91,6 +88,21 @@ header {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
   }
+
+  /* Youtube Search Styles */
+.vids {
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+color: #f3af19;
+}
+
+.result {
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
   
   /* Chart Styles */
   canvas {
@@ -119,8 +131,12 @@ header {
   }
 
   img {
-    height: 400px;
-    padding: 20px;
+    height: 500px;
+    padding: 30px;
+  }
+
+  .genbtn {
+  
   }
 
   /* Footer Styles */

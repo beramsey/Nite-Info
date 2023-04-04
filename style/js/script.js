@@ -17,15 +17,13 @@ const callParams = () => {
         .then(response => response.json())
         .then(data => {
             let output = '';
-            data.items.map(item => {
-                output += `
-                    <h1>${item.title}</h1>
-                    <li>
-                    <a href="${item.url}">${item.url}</a>
-                    </li>
-                    `;
-                  
-            })
+            data.items.slice(0,5).map(item => {
+              output += `
+             <h1>${item.title}</h1>
+              <li>
+               <a href="${item.url}">${item.url}</a>
+              </li>`;
+           })
             document.querySelector('.result').innerHTML = output;
         })
         .catch(err => console.error(err));
