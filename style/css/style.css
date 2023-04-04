@@ -3,7 +3,7 @@ body {
   color: black;
   font-family: Burbank Big Condensed; 
   margin: 0;
-  padding: 80px;
+  padding:5px;
 
 }
 
@@ -86,13 +86,22 @@ header {
     font-family:'Times New Roman', Times, serif;
   }
   
+  /* Chart Styles */
   canvas {
+    margin: 0 auto;
+    
 
   }
   #chart {
-    background-color: #9d4dbb;
+    background-color: #ffffff;
   }
 
+  /* Character Generator Styles */
+  #cgimg {
+    max-height: 300px;
+  }
+
+  /* Footer Styles */
   footer {
     background-color: #9d4dbb;
     font-family: Burbank Big Condensed;
