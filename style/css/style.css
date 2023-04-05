@@ -1,5 +1,5 @@
 body {
-  background-image: url("/style/images/bluebg.png");
+  background-image: url("../images/bluebg.png");
   background-size: cover;
   background-color: #379CEC;
   color: white;
