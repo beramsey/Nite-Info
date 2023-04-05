@@ -7,8 +7,8 @@ const options = {
 	}
 };
 
-const userInput = document.querySelector('input');
-const btn = document.querySelector('button');
+const userInput = document.querySelector("input");
+const btn = document.querySelector("button");
 
 let params = ''
 const callParams = () => {
@@ -68,7 +68,6 @@ const characterArray = [
 ];
 
 const image = document.querySelector("img");
-const button = document.querySelector("button");
 
 window.onload = () => generateRandomPicture(characterArray);
 
