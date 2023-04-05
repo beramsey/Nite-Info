@@ -19,7 +19,7 @@ JavaScript Requirements:
 Set 1:
 <br>
 1. Use arrays, objects, sets, or maps to store and retrieve information that is displayed in your app.
-This requirement is met by the random character generator which utilizes an array to show a random photo upon the click of a button.
+This requirement is met by the random character generator which utilizes an array to show a random photo upon a refresh or the click of a button. Please click multiple times to see different options.
 
 2. Visualize data in a user friendly way (e.g. graph, chart, etc.).
 For this requirement I built a chart using chart.js which displayed Fortnite's popularity over time. 
