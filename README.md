@@ -18,21 +18,21 @@ JavaScript Requirements:
 <br>
 Set 1:
 <br>
-1 Use arrays, objects, sets, or maps to store and retrieve information that is displayed in your app.
+1. Use arrays, objects, sets, or maps to store and retrieve information that is displayed in your app.
 This requirement is met by the random character generator which utilizes an array to show a random photo upon the click of a button.
 
-2 Visualize data in a user friendly way (e.g. graph, chart, etc.).
+2. Visualize data in a user friendly way (e.g. graph, chart, etc.).
 For this requirement I built a chart using chart.js which displayed Fortnite's popularity over time. 
 
 Set 2:
 <br>
-1 Retrieve Data from a 3rd party API and use it to display something within your app. 
+1. Retrieve Data from a 3rd party API and use it to display something within your app. 
 For this requirement I implemented a YouTube search function which fetches results using the YouTube Search Results API.
 
 ----
 
 Important links:
-
+<br>
 Site color palette:
 <br>
 https://www.color-hex.com/color-palette/66119
