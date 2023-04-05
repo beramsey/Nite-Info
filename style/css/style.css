@@ -108,10 +108,8 @@ color: #f3af19;
   canvas {
     display: flex;
     margin: 0 auto;
-    
-    
-
   }
+
   .wrapper{
     width:40%;
     display:block;
@@ -120,6 +118,13 @@ color: #f3af19;
     padding: 60px 50px;
     background:#ffffff;;
     border-radius:4px;
+  }
+
+  @media (max-width: 640px) {
+    canvas {
+      min-height: 100px;
+      min-width: 200px;
+    }
   }
 
   /* Character Generator Styles */
@@ -136,7 +141,8 @@ color: #f3af19;
   }
 
   .genbtn {
-  
+  color: #319236;
+  margin-bottom: 20px;
   }
 
   /* Footer Styles */
