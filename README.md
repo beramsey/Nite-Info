@@ -1,10 +1,18 @@
 About:
-This project is my Web Dev 2 final for Code Kentucky. It is an informational page for the popular video game Fortnite called Nite Info. (If it were a real site I imagine it as nite.info.) The site includes NAV based on one I created for my Web Dev 1 project. The site includes information about the history of Fortnite, a chart of the game's popularity over time utilizing chart.js, a character generator which displays a random character image picked from an array at the click of a button, and a YouTube search API which pulls results for related videos. 
+This project is my Web Dev 2 final for Code Kentucky. It is a user friendly information page for the popular video game Fortnite called Nite Info. (If it were a real site I imagine it as nite.info.) The site includes NAV based on one I created for my Web Dev 1 project. The site includes information about the history of Fortnite, a chart of the game's popularity over time utilizing chart.js, a character generator which displays a random character image picked from an array at the click of a button, and a YouTube search API which pulls results for related videos. 
 
 ----
 
 Project Requirements:
 (All requirements will have screenshots in the requirement screenshots folder located in /project info/requirement screenshots.) 
+
+Aesthetically pleasing: It is basic and functional for an information site and it is responsive. 
+
+Color palette: Located in the project info folder. 
+
+README: You are here.
+
+JavaScript Requirements:
 
 Set 1:
 1 Use arrays, objects, sets, or maps to store and retrieve information that is displayed in your app.
