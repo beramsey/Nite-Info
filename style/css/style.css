@@ -5,7 +5,6 @@ body {
   color: white;
   font-family: Burbank Big Condensed; 
   margin: 0;
-  padding:5px;
 
 }
 
@@ -86,10 +85,29 @@ header {
 
   section {
     font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 24px;
+    padding: 40px;
   }
 
   /* Youtube Search Styles */
+
+.searchbox {
+  border: 5px solid #9d4dbb;
+  padding: 10px;
+  height: 20px;
+  border-radius: 20px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchbutton {
+  background-color: #9d4dbb;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
 .vids {
 text-align: center;
 font-weight: bold;
@@ -99,8 +117,12 @@ color: #f3af19;
 }
 
 .result {
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  margin-bottom: 12px; /* Add some space below the input */
+  list-style-type: none;
+    color: #f3af19;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
   
@@ -141,8 +163,12 @@ color: #f3af19;
   }
 
   .genbtn {
-  color: #319236;
+  background-color: #319236;
+  color: #ffffff;
+  font-size: 20px;
   margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
   /* Footer Styles */
